@@ -1,0 +1,11 @@
+Create executable file for Windows. You need Python 3.13.13 (or later), Microsoft Visual C++ Redistributable 2017 (or later) and PyInstaller. (pip install pyinstaller)
+Command for Windows: pyinstaller --windowed --onefile "\Path\your\file\Neo Browser.py"
+Create executable file for Linux (Debian/Ubuntu Distributions) You need python3 and these libraries:
+python3-pyqt5
+python3-pyqt5.qtwebengine
+python3-requests
+python3-pyaudio
+pyinstaller.
+Linux command: pyinstaller --onefile "/Path/Your/Location/Neo Browser.py"
+Thanks for using Neo Browser!
+
